@@ -23,6 +23,7 @@ export default function Contact() {
         "Thanks! Your message has been sent. I'll get back to you soon."
       );
       e.currentTarget.reset();
+      console.log("Form data submitted:", data);
     }, 1200);
   };
 
